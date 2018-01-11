@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_berita"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/nav_berita" />
+        <item
+            android:id="@+id/nav_fakultas"
+            android:icon="@drawable/ic_local_movies_black_24dp"
+            android:title="@string/nav_fakultas" />
+
+        <item
+            android:id="@+id/nav_jurusan"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/nav_jurusan" />
+
+        <item
+            android:id="@+id/nav_jurnal"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/nav_jurnal" />
+
+        <item
+            android:id="@+id/nav_kemahasiswaan"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/nav_kemahasiswaan" />
+
+        <item
+            android:id="@+id/nav_siakad"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/nav_siakad" />
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/privacy_policy" />
+        </menu>
+    </item>
+
+</menu>
